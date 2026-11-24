@@ -14,7 +14,7 @@ document.addEventListener('click',function(e){
 });
 document.addEventListener('DOMContentLoaded',function(){
   var h=(location.hash||'').replace('#','');
-  if(h==='sc'||h==='mc'||h==='an') openSec(h,false);
+  if(h==='single'||h==='multi'||h==='analysis') openSec(h,false);
 });
 // lightbox
 (function(){
