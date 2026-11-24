@@ -123,6 +123,24 @@ footer a{color:var(--brand)}
 #toTop.on{display:block}
 @media(max-width:640px){.hero{padding:32px 0 26px}.tabs{top:52px}.nav .wrap{height:52px}.q h3{font-size:14.5px}.gallery{grid-template-columns:1fr 1fr}}
 
+/* bigger nav */
+.nav .wrap{height:96px;gap:20px}
+.brand{font-size:31px}
+.brand img{width:48px;height:48px;border-radius:10px}
+.nav-links a{font-size:26px;padding:10px 14px}
+.nav-links .menu>a{font-size:26px;padding:10px 14px}
+.nav-links .drop a{font-size:24px;padding:10px 16px}
+.drop-in{min-width:240px}
+.tabs{top:96px}
+.q{scroll-margin-top:180px}
+@media(max-width:640px){
+  .nav .wrap{height:72px}
+  .brand{font-size:22px}
+  .brand img{width:36px;height:36px}
+  .nav-links a,.nav-links .menu>a{font-size:18px;padding:6px 8px}
+  .tabs{top:72px}
+}
+
 /* dropdown nav */
 .menu{position:relative}
 .menu>a{display:inline-block;padding:6px 10px;border-radius:8px;font-size:13px;color:#45536b;white-space:nowrap}

@@ -5,7 +5,7 @@ function openSec(id,scroll){
   if(!t) return;
   document.querySelectorAll('.tab').forEach(function(x){x.classList.toggle('on',x===t)});
   document.querySelectorAll('.sec').forEach(function(s){s.classList.toggle('on',s.id===id)});
-  if(scroll) window.scrollTo({top:document.querySelector('.tabs').offsetTop-56,behavior:'instant'});
+  if(scroll) window.scrollTo({top:document.querySelector('.tabs').offsetTop-96,behavior:'instant'});
 }
 document.addEventListener('click',function(e){
   var t=e.target.closest('.tab'); if(!t) return;
